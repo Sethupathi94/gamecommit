@@ -1,0 +1,25 @@
+package pack1;
+
+import pack2.B;
+import pack2.C;
+
+public class Base {
+	public B a;
+	public C c;
+	
+	public Base(B a)
+	{
+		this.a=a;
+	}
+	
+	public Base(C c)
+	{
+		this.c=c;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

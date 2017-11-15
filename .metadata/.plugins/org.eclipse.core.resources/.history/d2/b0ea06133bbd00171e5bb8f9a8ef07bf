@@ -1,0 +1,15 @@
+
+public class HelloWorld {
+	 protected void finalize( ) throws Throwable
+	 {
+		  System.out.println("Cleaning");
+	 }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HelloWorld ob = new HelloWorld();
+		
+		System.out.println("Hello World");
+	}
+
+}

@@ -1,0 +1,30 @@
+
+public class HelloWorld {
+	void get()
+	{
+		System.out.println("normal get method is calling");
+	}
+	 protected void finalize( ) throws Throwable
+	 {
+		 
+		  super.finalize();
+		  System.out.println("Cleaning");
+	 }
+
+	public static void main(String[] args) {
+		//Long lo = new Long(35);
+		System.out.println(Long.MIN_VALUE);
+		//char c=65;
+		// TODO Auto-generated method stub
+		HelloWorld ob = new HelloWorld();
+//		HelloWorld ob1 = new HelloWorld();
+//		 ob = ob1;
+//		 System.gc();
+//		ob.get();
+//		ob1.get();
+		//System.out.println("Hello World");
+		//ob=null;
+		//System.gc();
+	}
+
+}
